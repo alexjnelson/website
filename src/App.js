@@ -1,4 +1,3 @@
-import debounce from "lodash.debounce";
 import { useEffect, useState } from "react";
 import "./App.css";
 import Card1 from "./Card1";
