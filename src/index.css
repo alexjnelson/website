@@ -71,7 +71,7 @@ a:hover {
     background-image: url('./assets/small.png');
     background-position: right;
   }
-  
+
   h2 {
     font-size: 0.8rem;
   }
@@ -101,11 +101,8 @@ a:hover {
 }
 
 /* bootstrap md breakpoint */
-@media (min-width: 768px){
-  .background-2 {
-    background-image: url('./assets/center.png'), url('./assets/left.png'), url('./assets/right.png');
-    background-position: center, left, right;
-  }
+@media (min-width: 768px) {
+
 }
 
 /* bootstrap lg breakpoint */
