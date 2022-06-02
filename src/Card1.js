@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFileCode } from "@fortawesome/fontawesome-free-regular";
 import { useEffect, useState } from "react";
 
 export default function Card1(props) {
@@ -27,19 +28,6 @@ export default function Card1(props) {
       >
         <Row className="mt-auto">
           <Col xs={4} className="text-end">
-            <a href="https://github.com/alexjnelson/">
-              <h2 className="px-5">
-                <FontAwesomeIcon className="accent" icon={faGithub} />
-              </h2>
-            </a>
-          </Col>
-          <Col xs={8}>
-            <h3>
-              <a href="https://github.com/alexjnelson/">alexjnelson</a>
-            </h3>
-          </Col>
-
-          <Col xs={4} className="text-end">
             <a href="https://www.linkedin.com/in/alex-j-nelson/">
               <h2 className="px-5">
                 <FontAwesomeIcon className="accent" icon={faLinkedinIn} />
@@ -50,6 +38,21 @@ export default function Card1(props) {
             <h3>
               <a href="https://www.linkedin.com/in/alex-j-nelson/">
                 Alex Nelson
+              </a>
+            </h3>
+          </Col>
+
+          <Col xs={4} className="text-end">
+            <a href="http://projects.alexjnelson.ca/">
+              <h2 className="px-5">
+                <FontAwesomeIcon className="accent" icon={faFileCode} />
+              </h2>
+            </a>
+          </Col>
+          <Col xs={8}>
+            <h3>
+              <a href="http://projects.alexjnelson.ca/">
+                projects.alexjnelson.ca
               </a>
             </h3>
           </Col>
