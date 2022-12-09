@@ -1,7 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faFileCode } from "@fortawesome/fontawesome-free-regular";
+import { faFileCode, faNewspaper } from "@fortawesome/fontawesome-free-regular";
 import { useEffect, useState } from "react";
 
 export default function Card1(props) {
@@ -54,6 +54,19 @@ export default function Card1(props) {
               <a href="http://projects.alexjnelson.ca/">
                 projects.alexjnelson.ca
               </a>
+            </h3>
+          </Col>
+
+          <Col xs={4} className="text-end">
+            <a href="http://blog.alexjnelson.ca/">
+              <h2 className="px-5">
+                <FontAwesomeIcon className="accent" icon={faNewspaper} />
+              </h2>
+            </a>
+          </Col>
+          <Col xs={8}>
+            <h3>
+              <a href="http://blog.alexjnelson.ca/">Blog Posts</a>
             </h3>
           </Col>
         </Row>
