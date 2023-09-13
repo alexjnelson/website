@@ -42,10 +42,10 @@ export default function Card2(props) {
               <h4 className="accent">MoveMate</h4>
             </Col>
             <Col xs={3}>
-              <h4 className="text-end d-none d-lg-block">2022</h4>
+              <h4 className="text-end d-none d-lg-block">2023</h4>
             </Col>
             <Col className="pb-3 pb-lg-5" xs={12}>
-              <h5>Software Developer</h5>
+              <h5>Software Developer and Product Manager</h5>
             </Col>
           </Row>
         </Col>
@@ -53,13 +53,13 @@ export default function Card2(props) {
         <Col xs={12}>
           <Row>
             <Col xs={9}>
-              <h4 className="accent">Capella</h4>
+              <h4 className="accent">Shomigo</h4>
             </Col>
             <Col xs={3}>
-              <h4 className="text-end d-none d-lg-block">2021</h4>
+              <h4 className="text-end d-none d-lg-block">2022</h4>
             </Col>
             <Col className="pb-3 pb-lg-5" xs={12}>
-              <h5>CTO & Cofounder</h5>
+              <h5>Full Stack Developer</h5>
             </Col>
           </Row>
         </Col>

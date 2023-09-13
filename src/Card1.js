@@ -66,7 +66,7 @@ export default function Card1(props) {
           </Col>
           <Col xs={8}>
             <h3>
-              <a href="http://blog.alexjnelson.ca/">Blog Posts</a>
+              <a href="http://blog.alexjnelson.ca/">Web Development Portfolio</a>
             </h3>
           </Col>
         </Row>
