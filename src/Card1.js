@@ -57,7 +57,7 @@ export default function Card1(props) {
             </h3>
           </Col>
 
-          <Col xs={4} className="text-end">
+          {/* <Col xs={4} className="text-end">
             <a href="http://blog.alexjnelson.ca/">
               <h2 className="px-5">
                 <FontAwesomeIcon className="accent" icon={faNewspaper} />
@@ -68,7 +68,7 @@ export default function Card1(props) {
             <h3>
               <a href="http://blog.alexjnelson.ca/">Web Development Portfolio</a>
             </h3>
-          </Col>
+          </Col> */}
         </Row>
       </Col>
 
